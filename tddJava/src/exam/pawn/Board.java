@@ -1,4 +1,4 @@
-package pawn;
+package exam.pawn;
 
 import java.util.ArrayList;
 

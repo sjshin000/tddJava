@@ -1,10 +1,11 @@
-package pawn;
+package exam.pawn;
 
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 
 import org.junit.Test;
+
 
 public class BoardTest {
 
@@ -17,10 +18,10 @@ public class BoardTest {
 		
 		
 		board.enroll(pawn1);
-		//pawnÀÇ °¹¼ö¸¦ È®ÀÎÇÑ´Ù.
+		//pawnï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ñ´ï¿½.
 		assertEquals(1, board.getNumberOfPawn());
 		board.enroll(pawn2);
-		//pawnÀÇ °¹¼ö¸¦ È®ÀÎÇÑ´Ù.
+		//pawnï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ñ´ï¿½.
 		assertEquals(2, board.getNumberOfPawn());
 		
 

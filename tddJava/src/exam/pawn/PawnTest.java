@@ -1,4 +1,4 @@
-package pawn;
+package exam.pawn;
 
 import static org.junit.Assert.*;
 

@@ -14,16 +14,23 @@ public class CourseSession {
 		numberOfStudent = 0;
 	}
 
+	String getDepartment() {
+		return department;
+	}
+
+	String getNumber() {
+		return number;
+	}
 	public int getNumberOfStudents() {
-		return numberOfStudent;
+		return students.size();
 	}
 
 	public void enroll(Student student) {
 		numberOfStudent = numberOfStudent+1;
 		students.add(student);
 	}
-	
-	ArrayList<Student> getAllStudents() {
-		return students;
+	public Student get(int index) {
+		return students.get(index);
 	}
+
 }

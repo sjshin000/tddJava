@@ -1,4 +1,4 @@
-package pawn;
+package exam.pawn;
 
 public class Pawn {
 //	final static String WHITE = "WHITE";
